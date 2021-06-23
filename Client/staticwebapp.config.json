@@ -2,12 +2,18 @@
     "routes": [
         {
             "route": "/fetchdata",
-            "allowedRoles": [
-                "authenticated"
-            ]
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/api/*",
+            "allowedRoles": ["authenticated"]
         }
     ],
     "navigationFallback": {
-        "rewrite": "/index.html"
+        "rewrite": "/index.html",
+        "exclude": [
+            "/images/*.{png,jpg,gif}",
+            "/css/*"
+        ]
     }
 }
