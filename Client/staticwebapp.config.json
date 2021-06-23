@@ -1,10 +1,6 @@
 {
     "routes": [
         {
-            "route": "/fetchdata",
-            "allowedRoles": ["authenticated"]
-        },
-        {
             "route": "/api/*",
             "allowedRoles": ["authenticated"]
         }
