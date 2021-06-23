@@ -7,3 +7,4 @@ Sample application to access blobs in Azure Storage using a SAS Token generated 
 * <https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/>
 * <https://github.com/staticwebdev/blazor-starter>
 * <https://docs.microsoft.com/en-us/azure/static-web-apps/authentication-authorization>
+* <https://docs.microsoft.com/en-us/azure/static-web-apps/configuration#example-configuration-file>

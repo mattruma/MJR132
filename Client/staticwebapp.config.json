@@ -1,9 +1,13 @@
 {
+    "routes": [
+        {
+            "route": "/fetchdata",
+            "allowedRoles": [
+                "authenticated"
+            ]
+        }
+    ],
     "navigationFallback": {
         "rewrite": "/index.html"
-    },
-    {
-        "route": "/fetchdata",
-        "allowedRoles": [ "authenticated" ]
     }
 }
